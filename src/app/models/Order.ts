@@ -1,7 +1,7 @@
 import { model, Schema } from "mongoose";
 
-export const Product = model(
-  "Product",
+export const Orders = model(
+  "Orders",
   new Schema({
     table: {
       type: String,
