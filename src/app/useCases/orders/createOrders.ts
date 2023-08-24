@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import { Orders } from "../../models/Order";
+import { io } from "../../..";
 
 export async function createOrders(req: Request, res: Response) {
   try {
@@ -14,6 +15,10 @@ export async function createOrders(req: Request, res: Response) {
       table,
       products,
     });
+
+    const orderDetails = await order.populate('products.product')
+
+    io.emit("orders@new", orderDetails);
 
     res.status(201).json(order);
   } catch (error) {
