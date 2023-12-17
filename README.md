@@ -1,4 +1,4 @@
-# api-waiterApp
+# waiter-app-api
 NodeJS(Express) + TypeScript + MongoDB
 
 ### Project description :star:
