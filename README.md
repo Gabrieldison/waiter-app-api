@@ -1,60 +1,60 @@
 # api-waiterApp
 NodeJS(Express) + TypeScript + MongoDB
 
-[Funcionalidades](#funcionalidades-checkered_flag) | [Tecnologias](#tecnologias-computer) | [Mobile e Web](#mobile-e-web-mag) | [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
-##
+### Project description :star:
 
-### Descrição do Projeto :star:
+Project API (WaiterApp) that I developed during the event (The power of Javascript) on the YouTube channel (Mateus Silva).
 
-API para o projeto (WaiterApp) que desenvolvi durante o evento (O poder do Javascript) do canal do youtube (Mateus Silva).
+![diagram](https://github.com/Gabrieldison/waiter-app-api/assets/85500242/ae9dc66a-c3cd-4217-b60d-131ef0de5b2b)
 
 
-### Funcionalidades :checkered_flag:
 
-- Criar categoria
-- Listar categorias
-- Criar produto
-- Listar produtos
-- Listar produtos por categoria
-- Criar pedido
-- Listar pedidos
-- Mudar status do pedido
-- Deletar pedido
+### Functionalities :checkered_flag:
 
-### Tecnologias :computer:
+- Create category
+- List categories
+- Create product
+- List products
+- List products by category
+- Create order
+- List orders
+- Change order status
+- Delete order
+
+### Technologies :computer:
 
 NodeJS(Express), TypeScript, MongoDB
 
-### Mobile e Web :mag:
+### Mobile and Web :mag:
 
-Veja os projetos que foram construídos a partir dessa API.
+See the projects that were built using this API.
 
-Aplicação Mobile: https://github.com/Gabrieldison/waiter-app-mobile
+Aplication Mobile: https://github.com/Gabrieldison/waiter-app-mobile
 
-Sistema Web: https://github.com/Gabrieldison/waiter-app-web
+Web: https://github.com/Gabrieldison/waiter-app-web
 
 
-### Como rodar a aplicação :arrow_forward:
+### How to run the application :arrow_forward:
 
-No terminal, clone o projeto: 
+In the terminal, clone the project:
 
 ```
 git clone https://github.com/Gabrieldison/waiter-app-api
 ```
 
-Entre na pasta do projeto:  
+Enter the project folder:
 
 ```
 cd api
 ```
 
-Instale as dependências:
+Install dependencies:
 
 ```
 yarn
 ```
 
-Execute a aplicação:
+Run the application:
 
 ```
 yarn start
